@@ -1,7 +1,7 @@
 /* Service worker — Fiches Kiné : utilisation hors ligne.
    La page est chargée depuis le réseau quand il est disponible (mises à jour immédiates),
    sinon depuis le cache. Icônes et manifeste : cache d'abord. Polices : cache puis mise à jour. */
-const VERSION = 'fiches-kine-2026-10-01-b940f013';
+const VERSION = 'fiches-kine-2026-10-03-3dc280e1';
 const FONTS = 'fiches-kine-fonts';
 const CORE = ['index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'];
 const SCOPE_PATH = new URL(self.registration.scope).pathname;
